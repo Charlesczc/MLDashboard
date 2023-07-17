@@ -14,7 +14,11 @@ class Heatmap extends Component {
   render() {
     return (
       <div>
-        <iframe className="heatmap" title="Heat Map" src="" />
+        <iframe
+          className="heatmap"
+          title="Heat Map"
+          src="./graph/corrHeatmap.html"
+        />
       </div>
     );
   }
