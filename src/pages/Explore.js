@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import corrHeatMap from "./graph/test.html";
+// import corrHeatMap from "./graph/corrHeatmap.html";
 
 function Explore() {
   return (
@@ -13,12 +13,8 @@ function Explore() {
 class Heatmap extends Component {
   render() {
     return (
-      <div style={{ width: "100%", height: "100%" }}>
-        <iframe
-          title="Heat Map"
-          srcDoc={corrHeatMap}
-          style={{ width: "100%", height: "100%", border: "none" }}
-        />
+      <div>
+        <iframe className="heatmap" title="Heat Map" src="" />
       </div>
     );
   }
