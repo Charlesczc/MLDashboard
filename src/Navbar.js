@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        Site Name
+        TEMG4940C ML Dashboard
       </Link>
       <ul>
         <CustomLink to="/Explore">Exploratory Data Analysis</CustomLink>
