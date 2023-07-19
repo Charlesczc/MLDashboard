@@ -23,6 +23,12 @@ body {
   text-align: center;
 }
 
+img,
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .nav {
   background-color: #333;
   color: white;
@@ -90,7 +96,7 @@ body {
 
 .rocs {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   list-style: none;
 }
 
