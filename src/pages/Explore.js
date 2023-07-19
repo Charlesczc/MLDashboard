@@ -11,22 +11,28 @@ function Explore() {
         scrolling="no"
       />
       <div className="level2">
+        <div>
+          <iframe
+            className="dist"
+            title="Distribution"
+            src={process.env.PUBLIC_URL + "/graphs/distribution.html"}
+          />
+        </div>
+        <div>
+          <iframe
+            className="box"
+            title="Boxplot"
+            src={process.env.PUBLIC_URL + "/graphs/boxplot.html"}
+          />
+        </div>
+      </div>
+      <div>
         <iframe
-          className="dist"
-          title="Distribution"
-          src={process.env.PUBLIC_URL + "/graphs/distribution.html"}
-        />
-        <iframe
-          className="box"
-          title="Boxplot"
-          src={process.env.PUBLIC_URL + "/graphs/boxplot.html"}
+          className="scatter"
+          title="Scatter"
+          src={process.env.PUBLIC_URL + "/graphs/scatter.html"}
         />
       </div>
-      <iframe
-        className="scatter"
-        title="Scatter"
-        src={process.env.PUBLIC_URL + "/graphs/scatter.html"}
-      />
     </div>
   );
 }

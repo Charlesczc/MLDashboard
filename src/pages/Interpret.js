@@ -4,8 +4,12 @@ function Interpret() {
       {/* <h1>Interpret</h1> */}
       <img src={process.env.PUBLIC_URL + "/graphs/fi.svg"}></img>
       <div className="learningc">
-        <img src={process.env.PUBLIC_URL + "/graphs/learnc1.svg"}></img>
-        <img src={process.env.PUBLIC_URL + "/graphs/learnc2.svg"}></img>
+        <div>
+          <img src={process.env.PUBLIC_URL + "/graphs/learnc1.svg"}></img>
+        </div>
+        <div>
+          <img src={process.env.PUBLIC_URL + "/graphs/learnc2.svg"}></img>
+        </div>
       </div>
       <div className="shap">
         <div>
