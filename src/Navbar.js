@@ -7,7 +7,7 @@ function Navbar() {
       <Link to="/MLDashboard" className="site-title">
         TEMG4940C ML Dashboard
       </Link>
-      <ul>
+      <ul className="navlist">
         <CustomLink to="/Explore">Exploratory Data Analysis</CustomLink>
         <CustomLink to="/Evaluate">Evaluation</CustomLink>
         <CustomLink to="/Interpret">Interpretation</CustomLink>

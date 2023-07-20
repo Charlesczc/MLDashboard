@@ -10,8 +10,11 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 8rem;
+  font-size: 8vw;
   opacity: 0.1;
+}
+h1:hover {
+  color: white;
 }
 
 body {
@@ -47,7 +50,10 @@ iframe {
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 2vw;
+}
+.navlist {
+  font-size: 1vw;
 }
 
 .nav ul {
