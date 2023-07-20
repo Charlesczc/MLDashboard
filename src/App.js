@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
+    //Navigate to different pages
     <div className="App">
       <Navbar />
       <div className="container">

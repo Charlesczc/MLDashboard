@@ -1,7 +1,7 @@
 function Evaluate() {
   return (
+    //Evaluation page with the model performance plot (Part 4a)
     <div>
-      {/* <h1>Evaluate</h1> */}
       <div className="rocs">
         <div>
           <img src={process.env.PUBLIC_URL + "/graphs/svm_roc.svg"}></img>

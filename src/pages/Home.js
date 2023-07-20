@@ -3,6 +3,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 
 function Home() {
   return (
+    //Home page with model scores
     <div>
       <h1>Random Forest Classification</h1>
       <PerCircle percent={84} name="Accuracy" />
@@ -17,6 +18,7 @@ function Home() {
 
 export default Home;
 
+//Creating scores percentage circle
 function PerCircle({ percent, name }) {
   return (
     <div className="circle_plate">

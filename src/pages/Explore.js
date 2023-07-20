@@ -1,15 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 
 function Explore() {
   return (
+    // Explore page with the plots (Part 1d)
     <div>
-      {/* <h1>Explore</h1> */}
-      <iframe
-        className="heatmap"
-        title="Heat Map"
-        src={process.env.PUBLIC_URL + "/graphs/corrHeatmap.html"}
-        scrolling="no"
-      />
+      <div>
+        <iframe
+          className="heatmap"
+          title="Heat Map"
+          src={process.env.PUBLIC_URL + "/graphs/corrHeatmap.html"}
+        />
+      </div>
       <div className="level2">
         <div>
           <iframe
@@ -26,7 +27,7 @@ function Explore() {
           />
         </div>
       </div>
-      <div>
+      <div className="splot">
         <iframe
           className="scatter"
           title="Scatter"

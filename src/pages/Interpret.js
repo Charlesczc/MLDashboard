@@ -1,7 +1,7 @@
 function Interpret() {
   return (
+    //Interpretation page model insight generation plots (Part 6)
     <div>
-      {/* <h1>Interpret</h1> */}
       <img src={process.env.PUBLIC_URL + "/graphs/fi.svg"}></img>
       <div className="learningc">
         <div>

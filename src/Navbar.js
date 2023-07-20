@@ -3,6 +3,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function Navbar() {
   return (
+    //Create navigation bar with four pages
     <nav className="nav">
       <Link to="/MLDashboard" className="site-title">
         TEMG4940C ML Dashboard
