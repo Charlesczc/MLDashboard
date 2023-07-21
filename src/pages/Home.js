@@ -6,6 +6,7 @@ function Home() {
     //Home page with model scores
     <div>
       <h1>Random Forest Classification</h1>
+      <text className="model">Random Forest Classifier</text>
       <PerCircle percent={84} name="Accuracy" />
       <div className="other">
         <PerCircle percent={65} name="Precision" />
