@@ -13,6 +13,9 @@ function Interpret() {
       </div>
       <div className="shap">
         <div>
+          <text>Shap Plots of classes</text>
+        </div>
+        <div>
           <img
             src={process.env.PUBLIC_URL + "/graphs/shap0.svg"}
             width="600px"
